@@ -10,7 +10,7 @@ const benefits = [
 
 export function FinalCTASection() {
   return (
-    <section className="py-16 md:py-24 gradient-yellow">
+    <section className="py-16 md:py-24 ">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-foreground">
@@ -37,7 +37,7 @@ export function FinalCTASection() {
             <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-6 text-lg">
               Book your matching call
             </Button>
-            <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-foreground/30 hover:bg-foreground/10">
+            <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-foreground/30 hover:bg-secondary">
               View case studies
             </Button>
           </div>

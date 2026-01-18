@@ -14,7 +14,7 @@ const features = [
 
 export function PricingSection() {
   return (
-    <section id="pricing" className="py-16 md:py-24 bg-muted/30 flex items-center justify-center">
+    <section id="pricing" className="py-16 md:py-24 bg-secondary/5 flex items-center justify-center">
       <div className="section-container">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">

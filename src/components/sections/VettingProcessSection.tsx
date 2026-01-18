@@ -51,7 +51,7 @@ export function VettingProcessSection() {
               className="relative bg-background rounded-xl p-6 border border-border hover:border-primary/50 transition-colors group"
             >
               <div className="flex items-start gap-4">
-                <span className="text-4xl font-bold text-primary/30 group-hover:text-primary/50 transition-colors">
+                <span className="text-4xl font-bold text-primary/90 group-hover:text-primary/50 transition-colors">
                   {step.number}
                 </span>
                 <div>

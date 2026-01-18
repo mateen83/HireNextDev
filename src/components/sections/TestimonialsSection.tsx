@@ -14,14 +14,14 @@ const testimonials = [
     quote: "The trial period gave us confidence to scale. We went from 1 to 4 developers in just 2 months.",
     name: "Michael Roberts",
     title: "VP Engineering",
-    company: "CloudBase Solutions",
+    company: "CloudBase",
     avatar: "MR",
   },
   {
     quote: "Finally, a service that delivers on its promises. Our React developers feel like part of the team from day one.",
     name: "Emily Watson",
     title: "Engineering Manager",
-    company: "DataFlow Systems",
+    company: "DataFlow",
     avatar: "EW",
   },
   {
@@ -55,8 +55,8 @@ const testimonials = [
   {
     quote: "HireNextDev provided skilled support specialists who reduced our ticket response time significantly.",
     name: "Maria Gomez",
-    title: "Customer Support Manager",
-    company: "HelpDesk Pro",
+    title: "Customer Support",
+    company: "HelpDesk",
     avatar: "MG",
   },
   {
@@ -98,7 +98,7 @@ export function TestimonialsSection() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="py-16 md:py-24 bg-muted/80">
+    <section className="py-16 md:py-24 bg-muted/20">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
@@ -130,7 +130,7 @@ export function TestimonialsSection() {
                       "{testimonial.quote}"
                     </blockquote>
                     <div className="flex items-center gap-4 pt-6 border-t border-border">
-                      <div className="w-12 h-12 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold">
+                      <div className="w-10 h-10 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold">
                         {testimonial.avatar}
                       </div>
                       <div>
