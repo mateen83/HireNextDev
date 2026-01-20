@@ -105,7 +105,7 @@ export function TechStackSection() {
   );
 
   return (
-    <section id="tech-stack" className="py-20 md:py-32  overflow-hidden">
+    <section id="tech-stack" className="py-16 md:py-24  overflow-hidden">
       <div className="max-w-[2000px] mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">

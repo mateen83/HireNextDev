@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const features = [
-  "Senior React developers only",
+  "Senior Software Engineer only",
   "2-week risk-free trial",
   "48-hour matching",
   "Your timezone",
@@ -14,7 +14,7 @@ const features = [
 
 export function PricingSection() {
   return (
-    <section id="pricing" className="py-16 md:py-24 bg-secondary/5 flex items-center justify-center">
+    <section id="pricing" className="py-16 md:py-24 bg-muted/70 flex items-center justify-center">
       <div className="section-container">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
@@ -26,7 +26,7 @@ export function PricingSection() {
             </p>
           </div>
 
-          <div className="bg-background rounded-2xl border border-border shadow-xl overflow-hidden max-w-lg ">
+          <div className="bg-background rounded-2xl border border-border shadow-xl overflow-hidden max-w-4xl ">
             <div className="p-8 md:p-12 text-center border-b border-border">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-sm font-medium mb-6">
                 <span>Most popular</span>
@@ -53,7 +53,7 @@ export function PricingSection() {
               </div>
 
               <Button size="lg" className="w-full bg-foreground text-background hover:bg-foreground/90 font-semibold py-6 text-lg">
-                Start your 14-day trial
+                Contact Us
               </Button>
               <p className="text-center text-sm text-muted-foreground mt-4">
                 No credit card required. Cancel anytime.

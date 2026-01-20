@@ -34,13 +34,26 @@ export function FinalCTASection() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-6 text-lg">
-              Book your matching call
-            </Button>
-            <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-foreground/30 hover:bg-secondary">
-              View case studies
-            </Button>
-          </div>
+  <a href="#contact">
+    <Button
+      size="lg"
+      className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-6 text-lg"
+    >
+      Get In Touch
+    </Button>
+  </a>
+
+  <a href="#contact">
+    <Button
+      size="lg"
+      variant="outline"
+      className="font-semibold px-8 py-6 text-lg border-foreground/30 hover:bg-secondary"
+    >
+      Contact Us
+    </Button>
+  </a>
+</div>
+
         </div>
       </div>
     </section>

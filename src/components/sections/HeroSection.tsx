@@ -27,7 +27,7 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-balance">
-            <span className="text-foreground">Hire Your Next Developers</span>
+            <span className="text-foreground">Hire Your Next Developer</span>
             <br />
             <span className="text-secondary">Ready to Ship</span>
           </h1>
@@ -40,13 +40,26 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-6 text-lg">
-              Get in Touch
-            </Button>
-            <Button size="lg" variant="outline" className="font-semibold px-8 py-6 text-lg border-foreground/20">
-              See how it works
-            </Button>
-          </div>
+  <a href="#contact">
+    <Button
+      size="lg"
+      className="bg-foreground text-background hover:bg-foreground/90 font-semibold px-8 py-6 text-lg"
+    >
+      Get In Touch
+    </Button>
+  </a>
+
+  <a href="#how-it-works">
+    <Button
+      size="lg"
+      variant="outline"
+      className="font-semibold px-8 py-6 text-lg border-foreground/20"
+    >
+      See how it works
+    </Button>
+  </a>
+</div>
+
 
           {/* Trust indicators */}
           <p className="mt-8 text-sm text-muted-foreground">

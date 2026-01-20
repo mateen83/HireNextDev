@@ -38,7 +38,7 @@ const features = [
 
 export function ProblemSolutionSection() {
   return (
-    <section id="how-it-works" className="py-16 md:py-24 bg-secondary/5">
+    <section id="how-it-works" className="py-16 md:py-24 bg-muted/50">
        
       <div className="section-container">
        <h2 className="text-3xl md:text-4xl font-bold  text-center mb-16">
@@ -85,11 +85,17 @@ export function ProblemSolutionSection() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mb-16">
-          <Button size="lg" className="bg-foreground text-background hover:bg-foreground/90 font-semibold">
-            Start your free trial
-          </Button>
-        </div>
+       <div className="text-center mb-16">
+  <a href="#contact">
+    <Button
+      size="lg"
+      className="bg-foreground text-background hover:bg-foreground/90 font-semibold"
+    >
+      Get In Touch
+    </Button>
+  </a>
+</div>
+
 
         {/* Feature Cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
